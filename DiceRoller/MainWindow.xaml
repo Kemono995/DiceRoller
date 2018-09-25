@@ -1,0 +1,26 @@
+﻿<Window x:Class="DiceRoller.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DiceRoller"
+        mc:Ignorable="d"
+        Title="Dice Roller" Height="261.548" Width="248.35" WindowStartupLocation="CenterScreen" ResizeMode="NoResize">
+    <Grid Margin="0,0,0,1">
+        <Label Content="Result:" HorizontalAlignment="Left" Margin="14,155,0,0" VerticalAlignment="Top"/>
+        <TextBox HorizontalAlignment="Left" IsEnabled="False" Height="23" Margin="110,158,0,0" TextWrapping="Wrap" Text="{Binding Path=Result}"  VerticalAlignment="Top" Width="120"/>
+        <Button Content="Roll" HorizontalAlignment="Left" Margin="157,200,0,0" VerticalAlignment="Top" Width="75" Command="{Binding Path=ExecuteCommand}"/>
+        <RadioButton Content="Total" GroupName="RollingMode" IsChecked="True" HorizontalAlignment="Left" Margin="15,12,0,0" VerticalAlignment="Top" Checked="RadioButton_Checked"/>
+        <RadioButton Content="Average" GroupName="RollingMode" HorizontalAlignment="Left" Margin="110,15,0,0" VerticalAlignment="Top" Checked="RadioButton_Checked_1"/>
+        <Label Content="Dice:" HorizontalAlignment="Left" Margin="14,34,0,0" VerticalAlignment="Top"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="112,37,0,0" TextWrapping="Wrap" Text="{Binding Path=DiceNumber}" VerticalAlignment="Top" Width="42"/>
+        <Label Content="d" HorizontalAlignment="Left" Margin="154,37,0,0" VerticalAlignment="Top" RenderTransformOrigin="3.919,-0.233" Width="21"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="180,37,0,0" TextWrapping="Wrap" Text="{Binding Path=DiceSize}" VerticalAlignment="Top" Width="40"/>
+        <RadioButton Content="Regular" GroupName="AdvantageMode" IsChecked="True" HorizontalAlignment="Left" Margin="14,71,0,0" VerticalAlignment="Top" Checked="RadioButton_Checked_2"/>
+        <RadioButton Content="Advantage" GroupName="AdvantageMode" HorizontalAlignment="Left" Margin="14,96,0,0" VerticalAlignment="Top" Checked="RadioButton_Checked_3"/>
+        <RadioButton Content="Dissadvantage" GroupName="AdvantageMode" HorizontalAlignment="Left" Margin="112,96,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.502,-2.168" Checked="RadioButton_Checked_4"/>
+        <Label Content="Reroll bellow:" HorizontalAlignment="Left" Margin="14,116,0,0" VerticalAlignment="Top"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="112,119,0,0" TextWrapping="Wrap" Text="{Binding Path=RerollLimit}" VerticalAlignment="Top" Width="120"/>
+
+    </Grid>
+</Window>

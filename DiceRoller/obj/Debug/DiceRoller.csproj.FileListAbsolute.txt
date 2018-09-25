@@ -1,0 +1,15 @@
+D:\th\DiceRoller\DiceRoller\bin\Debug\DiceRoller.exe.config
+D:\th\DiceRoller\DiceRoller\bin\Debug\DiceRoller.exe
+D:\th\DiceRoller\DiceRoller\bin\Debug\DiceRoller.pdb
+D:\th\DiceRoller\DiceRoller\obj\Debug\DiceRoller.csprojResolveAssemblyReference.cache
+D:\th\DiceRoller\DiceRoller\obj\Debug\MainWindow.g.cs
+D:\th\DiceRoller\DiceRoller\obj\Debug\App.g.cs
+D:\th\DiceRoller\DiceRoller\obj\Debug\DiceRoller_MarkupCompile.cache
+D:\th\DiceRoller\DiceRoller\obj\Debug\DiceRoller_MarkupCompile.lref
+D:\th\DiceRoller\DiceRoller\obj\Debug\MainWindow.baml
+D:\th\DiceRoller\DiceRoller\obj\Debug\DiceRoller.g.resources
+D:\th\DiceRoller\DiceRoller\obj\Debug\DiceRoller.Properties.Resources.resources
+D:\th\DiceRoller\DiceRoller\obj\Debug\DiceRoller.csproj.GenerateResource.cache
+D:\th\DiceRoller\DiceRoller\obj\Debug\DiceRoller.csproj.CoreCompileInputs.cache
+D:\th\DiceRoller\DiceRoller\obj\Debug\DiceRoller.exe
+D:\th\DiceRoller\DiceRoller\obj\Debug\DiceRoller.pdb
